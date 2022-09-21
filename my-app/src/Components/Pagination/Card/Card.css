@@ -1,0 +1,36 @@
+.Card-class {
+    width: 60%;
+    margin: 2rem auto;
+    background-color: "#f1f3f8";
+    box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    color: rgb(169, 8, 169);
+    text-align: center;
+    padding: 2rem;
+    transition: transform .2s;
+}
+
+.Card-class h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.Card-class p {
+    font-size: 1rem;
+    color: rgb(42, 40, 40);
+}
+
+.Card-class:hover {
+    transform: scale(1.1)
+}
+
+@media only screen and (max-width: 425px) {
+    .Card-class h2 {
+        font-size: 1rem;
+    }
+
+    .Card-class p {
+        font-size: 0.7rem;
+    }
+}

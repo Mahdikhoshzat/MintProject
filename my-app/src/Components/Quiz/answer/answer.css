@@ -1,0 +1,23 @@
+button {
+    width: 18rem;
+    border-radius: 16px;
+    padding: 1rem 0;
+    margin: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 25px 5px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+    border: none;
+    color: rgb(169, 8, 169);
+}
+
+@media only screen and (max-width: 726px) {
+    .btn-ans {
+        width: 12rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .btn-ans {
+        width: 8rem;
+    }
+}

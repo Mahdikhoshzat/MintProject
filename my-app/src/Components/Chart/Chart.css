@@ -1,0 +1,46 @@
+.chart {
+    text-align: right;
+    color: rgb(169, 8, 169);
+    width: 60%;
+    margin: 2rem auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.chart h1 {
+    margin-bottom: 1.5rem;
+}
+
+@media only screen and (max-width: 783px) {
+    .chart h1 {
+        font-size: 1.2rem;
+    }
+
+    .chart {
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width: 723px) {
+    .chart {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 588px) {
+    .chart h1 {
+        font-size: 1rem;
+    }
+
+    .chart {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 588px) {
+    .chart {
+        width: 95%;
+    }
+}
